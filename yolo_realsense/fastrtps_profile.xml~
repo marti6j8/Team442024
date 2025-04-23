@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dds>
+    <profiles>
+        <participant profile_name="manual_discovery" is_default_profile="true">
+            <rtps>
+                <builtin>
+                    <metatrafficUnicastLocatorList>
+                        <locator>
+                            <udpv4 address="192.168.1.6" port="7400"/>
+                        </locator>
+                    </metatrafficUnicastLocatorList>
+                </builtin>
+            </rtps>
+        </participant>
+    </profiles>
+</dds>
